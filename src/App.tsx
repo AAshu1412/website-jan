@@ -7,8 +7,9 @@ import Home from './components/home/Home';
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
       <Navbar/>
+    <Routes>
+    
       <Route path='/' element={<Home/>}/>
     </Routes>
     </BrowserRouter>
