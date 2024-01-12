@@ -1,24 +1,23 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import './Navbar.css';
 
 function Navbar() {
   return (
-    <nav className='main-nav'>
-        <div className='header-content'>
-            <ul>
-                <li>
+    <nav className='w-full h-24 grid grid-cols-6'>
+        <div className='col-start-2 col-end-6'>
+            <ul className='list-none h-24 flex flex-row justify-center items-center gap-8'>
+            <li className='hover:text-red-500 hover:underline'>
                     <NavLink to="/">Home</NavLink>
                 </li>
-                <li>Services</li>
-                <li>Industry</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Careers</li>
+                <li className='hover:text-red-500 hover:underline '>Services</li>
+                <li className='hover:text-red-500 hover:underline'>Industry</li>
+                <li className='hover:text-red-500 hover:underline'>About</li>
+                <li className='hover:text-red-500 hover:underline'>Contact</li>
+                <li className='hover:text-red-500 hover:underline'>Careers</li>
             </ul>
         </div>
-        <div className='employee-button'>
-            <button>Employee Login</button>
+        <div className='col-end-7 flex flex-row justify-center items-center '>
+            <button className="w-36 h-8 rounded-2xl box-border border-2">Employee Login</button>
         </div>
     </nav>
   );
