@@ -8,32 +8,32 @@ function Navbar() {
         <ul className="flex flex-row my-auto mx-0 gap-10 ">
           <li>
             <NavLink to="/">
-              <h1 className="hover:text-sky-400 ">Home</h1>
+              <h1 className="hover:underline text-white font-bold	">Home</h1>
             </NavLink>
           </li>
           <li>
             <NavLink to="/">
-              <h1>Services</h1>
+              <h1 className="hover:underline text-white font-bold	">Services</h1>
             </NavLink>
           </li>
           <li>
             <NavLink to="/">
-              <h1>Industry</h1>
+              <h1 className="hover:underline text-white font-bold	">Industry</h1>
             </NavLink>
           </li>
           <li>
             <NavLink to="/">
-              <h1>About</h1>
+              <h1 className="hover:underline text-white font-bold	">About</h1>
             </NavLink>
           </li>
           <li>
             <NavLink to="/">
-              <h1>Contact</h1>
+              <h1 className="hover:underline text-white font-bold	">Contact</h1>
             </NavLink>
           </li>
           <li>
             <NavLink to="/">
-              <h1>Careers</h1>
+              <h1 className="hover:underline text-white font-bold	">Careers</h1>
             </NavLink>
           </li>
         </ul>
