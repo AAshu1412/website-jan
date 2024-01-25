@@ -8,7 +8,7 @@ function Navbar() {
         <ul className="flex flex-row my-auto mx-0 gap-10 ">
           <li>
             <NavLink to="/">
-              <h1>Home</h1>
+              <h1 className="hover:text-sky-400 ">Home</h1>
             </NavLink>
           </li>
           <li>
