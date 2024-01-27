@@ -80,67 +80,56 @@ function Home() {
             </div>
             <div>
               <img src={icon} />
-              <h1>Embedded system Solutions</h1>
+              <h1>Storage Solutions</h1>
               <h1 className="w-64">
-                From SSD firmware to PCIe fabric-based storage chassis and
-                system management software, our solutions are designed for
-                speed, reliability, and scalability.
+              From SSD firmware to PCIe fabric-based storage chassis and system management software, our solutions are designed for speed, reliability, and scalability.
               </h1>
               <h1>Learn More</h1>
             </div>
             <div>
               <img src={icon} />
-              <h1>Embedded system Solutions</h1>
+              <h1>Internet of Things</h1>
               <h1 className="w-64">
-                From SSD firmware to PCIe fabric-based storage chassis and
-                system management software, our solutions are designed for
-                speed, reliability, and scalability.
+              From SSD firmware to PCIe fabric-based storage chassis and system management software, our solutions are designed for speed, reliability, and scalability.
               </h1>
               <h1>Learn More</h1>
             </div>
             <div>
               <img src={icon} />
-              <h1>Embedded system Solutions</h1>
+              <h1>Quality Assurance</h1>
               <h1 className="w-64">
-                From SSD firmware to PCIe fabric-based storage chassis and
-                system management software, our solutions are designed for
-                speed, reliability, and scalability.
+              From SSD firmware to PCIe fabric-based storage chassis and system management software, our solutions are designed for speed, reliability, and scalability.
               </h1>
               <h1>Learn More</h1>
             </div>
             <div>
               <img src={icon} />
-              <h1>Embedded system Solutions</h1>
+              <h1>Android Platform Solutions</h1>
               <h1 className="w-64">
-                We harness the power of the Android platform to develop advanced
-                products that resonate with your target audience.
+              We harness the power of the Android platform to develop advanced products that resonate with your target audience.
               </h1>
               <h1>Learn More</h1>
             </div>
             <div>
               <img src={icon} />
-              <h1>Embedded system Solutions</h1>
+              <h1>AI Solutions for the Future</h1>
               <h1 className="w-64">
-                We provide End to end system level work for AI platform and help
-                you leverage the power of AI to stay competitive and innovative.
+              We provide End to end system level work for AI platform and help you leverage the power of AI to stay competitive and innovative.              </h1>
+              <h1>Learn More</h1>
+            </div>
+            <div>
+              <img src={icon} />
+              <h1>SoC bring-up & system level IP validation</h1>
+              <h1 className="w-64">
+              Porting Linux Kernel/RTOS. Pre & Post Silicon IP validation (Customer FPGA/reference platform)
               </h1>
               <h1>Learn More</h1>
             </div>
             <div>
               <img src={icon} />
-              <h1>Embedded system Solutions</h1>
+              <h1>Hardware design</h1>
               <h1 className="w-64">
-                Porting Linux Kernel/RTOS. Pre & Post Silicon IP validation
-                (Customer FPGA/reference platform)
-              </h1>
-              <h1>Learn More</h1>
-            </div>
-            <div>
-              <img src={icon} />
-              <h1>Embedded system Solutions</h1>
-              <h1 className="w-64">
-                We provide End to end system level work for AI platform and help
-                you leverage the power of AI to stay competitive and innovative.
+              We provide End to end system level work for AI platform and help you leverage the power of AI to stay competitive and innovative.
               </h1>
               <h1>Learn More</h1>
             </div>
