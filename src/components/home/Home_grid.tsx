@@ -5,7 +5,7 @@ import green_arrow from "../../assets/Group.svg";
 
 function Home_grid() {
   return (
-    <div className=" flex flex-row justify-center mt-16 bg-blue-400">
+    <div className=" flex flex-row justify-center mt-16">
       <div className="grid gap-16">
         <div className="flex flex-col">
           <h1 className="w-28 p-1 text-sm font-bold text-green-950 bg-green-400 ">

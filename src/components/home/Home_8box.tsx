@@ -4,8 +4,8 @@ import arrow2 from "../../assets/ic_arrow.svg";
 
 function Home_8box() {
   return (
-    <div className="grid grid-cols-4 gap-4">
-      <div className="w-auto box-border border-solid  border-2 grid gap-2 ">
+    <div className="grid grid-cols-4 gap-4 gap-y-12">
+      <div className="w-auto box-border border-solid border-white grid gap-2 ">
         <img src={icon} />
         <div className="w-60 grid gap-2">
           <h1 className="font-bold text-xl ">Embedded system Solutions</h1>
@@ -20,7 +20,7 @@ function Home_8box() {
           </div>
         </div>
       </div>
-      <div className="w-auto box-border border-solid  border-2 grid gap-2 ">
+      <div className="w-auto box-border border-solid border-white  grid gap-2 ">
         <img src={icon} />
         <div className="w-60 grid gap-2">
           <h1 className="font-bold text-xl ">Storage Solutions</h1>
@@ -36,7 +36,7 @@ function Home_8box() {
           </div>
         </div>
       </div>
-      <div className="w-auto box-border border-solid  border-2 grid gap-2 ">
+      <div className="w-auto box-border border-solid border-white  grid gap-2 ">
         <img src={icon} />
         <div className="w-60 grid gap-2">
           <h1 className="font-bold text-xl ">Internet of Things </h1>
@@ -52,7 +52,7 @@ function Home_8box() {
           </div>
         </div>
       </div>
-      <div className="w-auto box-border border-solid  border-2 grid gap-2 ">
+      <div className="w-auto box-border border-solid border-white  grid gap-2 ">
         <img src={icon} />
         <div className="w-60 grid gap-2">
           <h1 className="font-bold text-xl ">Quality Assurance </h1>
@@ -68,7 +68,7 @@ function Home_8box() {
           </div>
         </div>
       </div>
-      <div className="w-auto box-border border-solid  border-2 grid gap-2 ">
+      <div className="w-auto box-border border-solid border-white  grid gap-2 ">
         <img src={icon} />
         <div className="w-60 grid gap-2">
           <h1 className="font-bold text-xl ">Android Platform Solutions</h1>
@@ -83,7 +83,7 @@ function Home_8box() {
           </div>
         </div>
       </div>
-      <div className="w-auto box-border border-solid  border-2 grid gap-2 ">
+      <div className="w-auto box-border border-solid border-white  grid gap-2 ">
         <img src={icon} />
         <div className="w-60 grid gap-2">
           <h1 className="font-bold text-xl ">AI Solutions for the Future </h1>
@@ -98,7 +98,7 @@ function Home_8box() {
           </div>
         </div>
       </div>
-      <div className="w-auto box-border border-solid  border-2 grid gap-2 ">
+      <div className="w-auto box-border border-solid border-white  grid gap-2 ">
         <img src={icon} />
         <div className="w-60 grid gap-2">
           <h1 className="font-bold text-xl ">
@@ -115,7 +115,7 @@ function Home_8box() {
           </div>
         </div>
       </div>
-      <div className="w-auto box-border border-solid border-2 grid gap-2 ">
+      <div className="w-auto box-border border-solid border-white grid gap-2 ">
         <img src={icon} />
         <div className="w-60 grid gap-2">
           <h1 className="font-bold text-xl ">Hardware design</h1>
