@@ -1,0 +1,43 @@
+import React from "react";
+import arrow from "../../assets/arrow.svg";
+import scroll from "../../assets/scroll.svg";
+import Navbar from "../Navbar";
+
+function Home_top() {
+  return (
+    <div className="bg-background bg-no-repeat bg-cover h-[600px] box-border">
+      <Navbar />
+      <div className="w-[875px] ml-24 mt-16 flew flex-col  ">
+        {" "}
+        {/*h-80 bg-slate-500 bg-yellow-600 bg-orange-800*/}
+        <h1 className="text-white	text-6xl font-light	">
+          A one-stop Solution Provider for{" "}
+          <span className="font-bold	">
+            embedded product engineering and development
+          </span>
+        </h1>
+        <br />
+        <h1 className=" w-[675px] text-white font-normal text-xl">
+          We are committed to provide the highest business value to our
+          customers and lives by a value-focused, technology centred
+          organisation.
+        </h1>
+        <br />
+        <h1 className="text-white font-medium flex flex-row gap-3">
+          Contact Us <img src={arrow} className="w-7"></img>
+        </h1>
+      </div>
+      <div className="flex flex-row justify-center mt-16">
+        <div className="grid grid-cols-1 gap-2 ">
+          <h1 className="text-xs text-white">Discover more</h1>
+          <div className="flex justify-center">
+            {" "}
+            <img src={scroll} className="w-5"></img>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Home_top;
