@@ -4,6 +4,8 @@ import scroll from "../assets/scroll.svg";
 import icon from "../assets/sample_icon.svg";
 import arrow2 from "../assets/ic_arrow.svg";
 import green_arrow from "../assets/Group.svg";
+import star from "../assets/Star.svg";
+import girl from "../assets/girl.svg";
 import Navbar from "./Navbar";
 
 function Home() {
@@ -217,27 +219,77 @@ function Home() {
           {/*----------------------------------------------------------------------------------------------------------------------------------- */}
           <div className="flex flex-col">
             <h1 className="w-20 p-1 text-sm font-bold text-green-950 bg-green-400 ">
-            About us
+              About us
             </h1>
             <br />
             <h1 className="w-[850px] text-4xl font-medium 	">
-          <span className="font-normal">At Gyansamhita</span>  , we love technology and are driven by passion and innovation that improves our customer’s operations. 
+              <span className="font-normal">At Gyansamhita</span> , we love
+              technology and are driven by passion and innovation that improves
+              our customer’s operations.
             </h1>
             <br />
             <h1 className="w-[850px] text-xl ">
-            There’s so much we start adding up in terms of value, only to achieve the aforesaid.
-Over the last 10 years of our successful stint in the industry, headquartered in Bangalore and operating from Hyderabad, India. The company has a proven track record in delivering Embedded Software and System Solutions that provide a competitive edge to clients and partners.
+              There’s so much we start adding up in terms of value, only to
+              achieve the aforesaid. Over the last 10 years of our successful
+              stint in the industry, headquartered in Bangalore and operating
+              from Hyderabad, India. The company has a proven track record in
+              delivering Embedded Software and System Solutions that provide a
+              competitive edge to clients and partners.
             </h1>
-            <br/>
+            <br />
             <div className="flex flex-row gap-3">
               <h1 className="text-xl font-medium	">Learn More</h1>
               <img src={green_arrow} className="w-8"></img>
             </div>
           </div>
+          {/*-------------------------------------------------------------------------------------------------------- */}
+          <div className="flex flex-col">
+            <h1 className="w-24 p-1 text-sm font-bold text-green-950 bg-green-400 ">
+            Testimonials            </h1>
+            <br />
+            <h1 className="w-[850px] text-4xl font-medium 	">
+            What people are saying
+            </h1>
+            <br />
+           <div className="bg-pink-500 grid grid-cols-3 ">
+            <div className="grid ">
+               <div><img src={star}></img></div>
+               <h1 className="w-48">"Easily the best project management software on the market, right now. We became 2x faster and more efficient after adopting Projectile. </h1>
+               <div>
+                <img src={girl}></img>
+                <div>
+                  <h1>Cornelia Carter</h1>
+                  <h1>Senior Marketing Manager</h1>
+                </div>
+               </div>
+            </div>
+            <div>
+               <div><img src={star}></img></div>
+               <h1 className="w-48">"Easily the best project management software on the market, right now. We became 2x faster and more efficient after adopting Projectile. </h1>
+               <div>
+                <img src={girl}></img>
+                <div>
+                  <h1>Cornelia Carter</h1>
+                  <h1>Senior Marketing Manager</h1>
+                </div>
+               </div>
+            </div>
+            <div>
+               <div><img src={star}></img></div>
+               <h1 className="w-48">"Easily the best project management software on the market, right now. We became 2x faster and more efficient after adopting Projectile. </h1>
+               <div>
+                <img src={girl}></img>
+                <div>
+                  <h1>Cornelia Carter</h1>
+                  <h1>Senior Marketing Manager</h1>
+                </div>
+               </div>
+            </div>
+           </div>
+          </div>
+
         </div>
       </div>
-
-      
     </div>
   );
 }
