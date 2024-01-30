@@ -4,7 +4,7 @@ import arrow2 from "../../assets/ic_arrow.svg";
 
 function Home_8box() {
   return (
-    <div className="grid grid-cols-4 gap-4 gap-y-12">
+    <div className="grid grid-cols-4 gap-4 gap-y-12 ">
       <div className="w-auto box-border border-solid border-white grid gap-2 ">
         <img src={icon} />
         <div className="w-60 grid gap-2">

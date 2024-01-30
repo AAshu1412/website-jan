@@ -1,11 +1,11 @@
 import React from "react";
 import arrow from "../../assets/arrow.svg";
 import scroll from "../../assets/scroll.svg";
-import Navbar from "../Navbar";
+import Navbar from "../Navbar/Navbar";
 
 function Home_top() {
   return (
-    <div className="bg-background bg-no-repeat bg-cover h-[600px] box-border">
+    <div className="bg-back bg-no-repeat bg-cover h-[600px] box-border">
       <Navbar />
       <div className="w-[875px] ml-24 mt-16 flew flex-col  ">
         {" "}
@@ -32,7 +32,7 @@ function Home_top() {
           <h1 className="text-xs text-white">Discover more</h1>
           <div className="flex justify-center">
             {" "}
-            <img src={scroll} className="w-5"></img>
+          <a> <img src={scroll} className="w-5"></img></a> 
           </div>
         </div>
       </div>
