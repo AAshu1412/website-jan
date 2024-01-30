@@ -10,7 +10,7 @@ import wlmart from "../../assets/brands/Walmart.svg";
 
 function Home_card() {
   return (
-    <div className=" flex flex-row justify-center mt-16 bg-slate-200	">
+    <div className=" flex flex-row justify-center mt-16 bg-slate-200	py-16">
       <div className="w-[1020px] flex flex-col ">
         <h1 className="w-24 p-1 text-sm font-bold text-green-950 bg-green-400 ">
           Testimonials{" "}

@@ -14,35 +14,77 @@ function Home_dropDown() {
           Frequently asked Questions
         </h1>
         <br />
+        <br />
         <div>
-          <Accordion type="single" collapsible className="w-full">
-            <AccordionItem value="item-1">
-              <AccordionTrigger>What is Product engineering and development?</AccordionTrigger>
+          <Accordion
+            type="single"
+            collapsible
+            className="w-full grid gap-12 font-medium text-xl"
+          >
+            <AccordionItem value="item-1" className="grid gap-3">
+              <AccordionTrigger>
+                What is Product engineering and development?
+              </AccordionTrigger>
               <AccordionContent>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-2">
-              <AccordionTrigger>What is Product engineering and development?</AccordionTrigger>
-              <AccordionContent>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.
+                <h1 className=" font-medium text-[#1a191e]">
+                  {" "}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum
+                  sociis natoque penatibus et magnis dis parturient.
+                </h1>
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-3">
-              <AccordionTrigger>What is Product engineering and development?</AccordionTrigger>
+            <AccordionItem value="item-2" className="grid gap-3">
+              <AccordionTrigger>
+                What is Product engineering and development?
+              </AccordionTrigger>
               <AccordionContent>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.
+                <h1 className=" font-medium text-[#1a191e]">
+                  {" "}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum
+                  sociis natoque penatibus et magnis dis parturient.
+                </h1>
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-4">
+            <AccordionItem value="item-3" className="grid gap-3">
+              <AccordionTrigger>
+                What is Product engineering and development?
+              </AccordionTrigger>
+              <AccordionContent>
+                <h1 className=" font-medium text-[#1a191e]">
+                  {" "}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum
+                  sociis natoque penatibus et magnis dis parturient.
+                </h1>
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-4" className="grid gap-3">
               <AccordionTrigger>What is Product engineering?</AccordionTrigger>
               <AccordionContent>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.
+                <h1 className=" font-medium text-[#1a191e]">
+                  {" "}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum
+                  sociis natoque penatibus et magnis dis parturient.
+                </h1>
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-5">
+            <AccordionItem value="item-5" className="grid gap-3">
               <AccordionTrigger>What is Product engineering?</AccordionTrigger>
               <AccordionContent>
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.
+                <h1 className=" font-medium text-[#1a191e]">
+                  {" "}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum
+                  sociis natoque penatibus et magnis dis parturient.
+                </h1>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
