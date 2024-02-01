@@ -1,11 +1,13 @@
 import React from "react";
 import home_mail from "../../assets/home_footer/ic_mail.svg";
 import home_call from "../../assets/home_footer/ic_call.svg";
+import linkedin from "../../assets/home_contact/Linkedin.svg";
+import twitter from "../../assets/home_contact/Twitter.svg";
 
 function Footer() {
   return (
-    <div className="bg-[#004642] text-white mt-16 py-16">
-      <div className="flex flex-row justify-around">
+    <div className="bg-[#004642] text-white mt-16 pt-16">
+      <div className="flex flex-row justify-around pb-16 ">
         <div className="w-64 flex flex-col gap-5">
           <h1 className="text-sm text-[#FFFFFF99]">
             “Our mission is to provide the highest business value to our
@@ -63,6 +65,21 @@ function Footer() {
           </div>
         </div>
       </div>
+<div className="h-24 flex flex-col justify-center  border-t-2 border-[#FFFFFF99]">
+<div className="flex flex-row justify-evenly">
+        <div className="text-sm text-[#FFFFFF99] flex flex-row  gap-20">
+<h1>Copyright © 2023 Gytech. All Rights Reserved.</h1>
+<h1>Terms of Service</h1>
+<h1>Privacy Policy</h1>
+<h1>Cookies</h1>
+        </div>
+        <div className="flex flex-row gap-4">
+<img src={twitter} className="w-7"/>
+<img src={linkedin} className="w-7"/>
+        </div>
+      </div>
+</div>
+      
     </div>
   );
 }
