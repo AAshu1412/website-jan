@@ -4,7 +4,7 @@ import home_call from "../../assets/home_footer/ic_call.svg";
 
 function Footer() {
   return (
-    <div className="bg-[#004642] text-white ">
+    <div className="bg-[#004642] text-white mt-16 py-16">
       <div className="flex flex-row justify-around">
         <div className="w-64 flex flex-col gap-5">
           <h1 className="text-sm text-[#FFFFFF99]">
@@ -21,11 +21,11 @@ function Footer() {
             <h1 className="text-sm">+91 40 40177887</h1>
           </div>
         </div>
-        <div>
-          <div>
-            <ul>
-              <li className="font-bold	">Company</li>
-              <div className="text-sm text-[#FFFFFF99]">
+        <div className="flex flex-row gap-16">
+          <div >
+            <ul className="flex flex-col gap-4">
+              <li className="font-bold">Company</li>
+              <div className="text-sm text-[#FFFFFF99] flex flex-col gap-4">
                 {" "}
                 <li>Home</li>
                 <li>Services</li>
@@ -36,9 +36,9 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <ul>
+            <ul className="flex flex-col gap-4">
               <li className="font-bold	">Services</li>
-              <div className="text-sm text-[#FFFFFF99]">
+              <div className="text-sm text-[#FFFFFF99] flex flex-col gap-4">
                 <li>Embedded system solutions</li>
                 <li>Storage solutions</li>
                 <li>Internet of things</li>
@@ -52,9 +52,9 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <ul>
+            <ul className="flex flex-col gap-4">
               <li className="font-bold	">Discover</li>
-              <div className="text-sm text-[#FFFFFF99]">
+              <div className="text-sm text-[#FFFFFF99] flex flex-col gap-4">
                 <li>FAQs</li>
                 <li>Testimonials</li>
                 <li>Employee Portal</li>
