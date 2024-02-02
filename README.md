@@ -1,30 +1,54 @@
-# React + TypeScript + Vite
+# Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Index
 
-Currently, two official plugins are available:
+- [Website](#website)
+- [Index](#index)
+- [About](#about)
+  - [Techstack](#techstack)
+- [How to setup](#how-to-setup)
+  - [Clone the repo](#clone-the-repo)
+- [Finally run the webapp](#finally-run-the-webapp)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# About
 
-## Expanding the ESLint configuration
+Simple website for practice only
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Techstack
 
-- Configure the top-level `parserOptions` property like this:
+    - Vite + ReactJS with Typescript
+    - Tailwind CSS
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+# How to setup
+
+## Clone the repo
+
+Fork and clone the repo
+
+```bash
+git clone git@github.com:AAshu1412/website-jan.git
+cd website-jan
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Install dependencies
+
+```bash
+npm install 
+```
+
+# Finally run the webapp
+
+```bash
+npm run dev
+```
+
+The webapp will be running on `localhost:5173`
+
+To open the same application of another device for testing purposes, make sure that the device is connected to the same network as the device on which the webapp is running. Then visit `http://<IP_ADDRESS_OF_THE_DEVICE_RUNNING_THE_WEBAPP>:5173`
+
+# License
+
+The projects is licensed under [MIT](https://choosealicense.com/licenses/mit/)
+
+
