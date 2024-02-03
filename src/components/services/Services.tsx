@@ -21,6 +21,9 @@ Join our Team
 
             <div>
             Board Support Package Development
+            <h1>Bootloader and Linux kernel porting</h1>
+            <h1>Custom device driver development</h1>
+            <h1>Root file system building</h1>
             </div>
         </div>
     </div>
