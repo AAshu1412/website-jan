@@ -6,7 +6,7 @@ import Navbar from "../Navbar/Navbar";
 function Home_top() {
   return (
     <div className="bg-back bg-no-repeat bg-cover h-[600px] box-border">
-      <Navbar color="white"/>
+      <Navbar color="white" button_color="white"/>
       <div className="w-[875px] ml-24 mt-16 flew flex-col  ">
         {" "}
         {/*h-80 bg-slate-500 bg-yellow-600 bg-orange-800*/}

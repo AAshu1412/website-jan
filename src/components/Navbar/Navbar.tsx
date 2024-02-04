@@ -40,7 +40,7 @@ function Navbar(props:any) {
         </ul>
       </div>
       <div className="col-start-3 col-span-1 flex flex-row  my-auto mx-0 justify-center ">
-        <button className="w-40 h-11 box-border border-0 border-inherit border-solid bg-white rounded-[28px] ">
+        <button className="w-40 h-11 box-border border-0 border-inherit border-solid rounded-[28px] " style={{backgroundColor:props.button_color, color:props.button_text}}>
           Employee Login
         </button>
       </div>
