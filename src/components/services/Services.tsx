@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import icon from "../../assets/sample_icon.svg";
 import green_arrow from "../../assets/Group.svg";
+import check from "../../assets/ic_check.svg";
 
 function Services(){
 return(
@@ -20,10 +21,36 @@ Join our Team
             </div>
 
             <div>
-            Board Support Package Development
-            <h1>Bootloader and Linux kernel porting</h1>
-            <h1>Custom device driver development</h1>
-            <h1>Root file system building</h1>
+           <h1 className="font-medium text-2xl">Board Support Package Development   </h1> 
+            <div className="flex flex-row bg-slate-600 mt-20">
+<div className="flex flex-col">
+    <div className="flex">
+        <img src={check}/>
+    <h1>Bootloader and Linux kernel porting</h1>
+    </div>
+    <div className="flex">
+        <img src={check}/>
+        <h1>Custom device driver development</h1>
+    </div>
+    <div className="flex">
+        <img src={check}/>
+        <h1>Root file system building</h1>
+    </div>
+          
+</div>
+<div className="flex flex-col">
+
+<div className="flex">
+        <img src={check}/>
+        <h1>Boot time optimization</h1>
+    </div>
+    <div className="flex">
+        <img src={check}/>
+        <h1>Turnkey product design and release</h1>
+    </div>
+</div>
+            </div>
+           
             </div>
         </div>
     </div>
