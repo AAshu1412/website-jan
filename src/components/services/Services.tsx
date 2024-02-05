@@ -92,7 +92,7 @@ function Services() {
       <div>
         <img src={services_bottom_img} className="w-full mt-20"/>
       </div>
-      <div className="flex flex-row justify-between px-40">
+      <div className="flex flex-row justify-between px-40 py-4">
         <div>
           <img src={gytechs}/>
         </div>
