@@ -3,13 +3,15 @@ import Navbar from "../Navbar/Navbar";
 import icon from "../../assets/sample_icon.svg";
 import green_arrow from "../../assets/Group.svg";
 import check from "../../assets/ic_check.svg";
+import services_bottom_img from "../../assets/image 1.png";
+import gytechs from "../../assets/cropped-Gytechs-Logo 1.svg";
 
 function Services() {
   return (
     <div>
       <Navbar color="black" button_color="#507A56" button_text="white" />
       <div className="flex flex-row justify-center gap-32 mt-8">
-        <div className=" bg-slate-500 flex flex-col gap-4">
+        <div className=" bg-slate-500 flex flex-col gap-4 ">       {/*h-[28vh] */}
           <img src={icon} className="w-14" />
           <h1 className="text-5xl	">Embedded system Solutions</h1>
           <h1 className="w-[500px] text-lg">
@@ -85,6 +87,30 @@ function Services() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div>
+        <img src={services_bottom_img} className="w-full mt-20"/>
+      </div>
+      <div className="flex flex-row justify-between px-40">
+        <div>
+          <img src={gytechs}/>
+        </div>
+        <div className="flex flex-row gap-16 items-center">
+          <h1>Product</h1>
+          <h1>Pricing</h1>
+          <h1>Company</h1>
+          <h1>Resources</h1>
+          <h1>Contact</h1>
+        </div>
+      </div>
+      <div className="flex flex-row justify-between px-40 bg-[#201F1F] text-white h-24 items-center">
+        <div>
+          <h1>Copyright © 2023 Gytech. All Rights Reserved.</h1>
+        </div>
+        <div className="flex flex-row gap-10">
+          <h1>Terms of Service</h1>
+          <h1>Privacy Policy</h1>
         </div>
       </div>
     </div>

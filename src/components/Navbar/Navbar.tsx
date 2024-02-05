@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Navbar(props:any) {
 
   return (
-    <nav className=" w-full h-24  grid grid-cols-[3rem_5fr_1fr_3rem] bg-orange-600">
+    <nav className=" w-full h-24  grid grid-cols-[3rem_5fr_1fr_3rem] ">
       <div className="col-start-2 col-span-1 flex flex-row justify-center box-border pl-60 ">
         <ul className="flex flex-row my-auto mx-0 gap-10 ">
           <li>
