@@ -49,18 +49,25 @@ function About() {
         </div>
      
       </div>
-      <div className="bg-pink-400 py-12 px-60">
-        <h1 className="text-3xl font-normal">“Our mission is to provide the <span className="font-medium">highest business value to our customers   </span> and live by a <span className="font-medium">value-focused, technology centered organization.”</span></h1>
-        <div className="bg-slate-200">
-            <h1 className="font-medium">Careers</h1>
-            <div>
-                <h1>We believe it takes great people to make a great product. That’s why we hire not only the perfect professional fits, but people who embody our company values.</h1>
-                <div>
-                    <h1>Join our Team</h1>
-<img src={green_arrow} />
+      <div className="bg-pink-400 py-12 px-60 flex flex-col items-center">
+        <h1 className="text-3xl font-normal w-[1166px]">“Our mission is to provide the <span className="font-medium">highest business value to our customers   </span> and live by a <span className="font-medium">value-focused, technology centered organization.”</span></h1>
+        <div className="flex flex-row justify-center mt-6">
+        <div className="bg-slate-200 flex flex-row box-border p-8 justify-center gap-20 w-min">
+            <h1 className="font-medium text-3xl">Careers</h1>
+            <div className="flex flex-col gap-4">
+                <h1 className="text-lg w-[700px]">We believe it takes great people to make a great product. That’s why we hire not only the perfect professional fits, but people who embody our company values.</h1>
+                <div className="flex flex-row items-center gap-4">
+                    <h1 className="text-xl font-medium">Join our Team</h1>
+<img src={green_arrow} className="w-12"/>
                 </div>
             </div>
         </div>
+        </div>
+        <div className="flex flex-col">
+        <h1 className="w-28 p-2 font-bold text-sm text-[#004642] bg-green-400 box-border">EXPERIENCE</h1> 
+
+        </div>
+       
       </div>
     </div>
   );
