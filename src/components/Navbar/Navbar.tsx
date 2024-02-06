@@ -23,7 +23,7 @@ function Navbar(props:any) {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/">
+            <NavLink to="/about">
               <h1 className="hover:underline font-bold	" style={{color:props.color}}>About</h1>
             </NavLink>
           </li>

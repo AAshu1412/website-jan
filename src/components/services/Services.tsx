@@ -11,7 +11,9 @@ function Services() {
     <div>
       <Navbar color="black" button_color="#507A56" button_text="white" />
       <div className="flex flex-row justify-center gap-32 mt-8">
-        <div className=" bg-slate-500 flex flex-col gap-4 ">       {/*h-[28vh] */}
+        <div className="  flex flex-col gap-4   ">
+          {" "}
+          {/*h-[28vh] */}
           <img src={icon} className="w-14" />
           <h1 className="text-5xl	">Embedded system Solutions</h1>
           <h1 className="w-[500px] text-lg">
@@ -30,7 +32,7 @@ function Services() {
               <h1 className="font-medium text-2xl">
                 Board Support Package Development{" "}
               </h1>
-              <div className="flex flex-row bg-yellow-600 mt-8 gap-10">
+              <div className="flex flex-row  mt-8 gap-10">
                 <div className="flex flex-col gap-6 w-56">
                   <div className="flex gap-3">
                     <img src={check} />
@@ -59,7 +61,7 @@ function Services() {
             </div>
             <div>
               <h1 className="font-medium text-2xl">Firmware Development </h1>
-              <div className="flex flex-row bg-yellow-600 mt-8 gap-10">
+              <div className="flex flex-row  mt-8 gap-10">
                 <div className="flex flex-col gap-6 w-56">
                   <div className="flex gap-3">
                     <img src={check} />
@@ -90,11 +92,11 @@ function Services() {
         </div>
       </div>
       <div>
-        <img src={services_bottom_img} className="w-full mt-20"/>
+        <img src={services_bottom_img} className="w-full mt-20" />
       </div>
       <div className="flex flex-row justify-between px-40 py-4">
         <div>
-          <img src={gytechs}/>
+          <img src={gytechs} />
         </div>
         <div className="flex flex-row gap-16 items-center">
           <h1>Product</h1>
