@@ -8,10 +8,10 @@ import amazon from "../../assets/brands/Amazon.svg";
 import canon from "../../assets/brands/Canon.svg";
 import wlmart from "../../assets/brands/Walmart.svg";
 
-function Home_card() {
+function Home_card(props:any) {
   return (
-    <div className=" flex flex-row justify-center mt-16 bg-slate-200	py-16">
-      <div className="w-[1020px] flex flex-col ">
+    <div className=" flex flex-row justify-center mt-16 bg-slate-200	py-16" style={{marginTop:props.about_margin}}>
+      <div className="w-[1020px] flex flex-col " style={{width:props.about_width}}>
         <h1 className="w-24 p-1 text-sm font-bold text-green-950 bg-green-400 ">
           Testimonials{" "}
         </h1>

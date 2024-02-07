@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import Home_card from "../home/Home_card";
 import about_top from "../../assets/image 4.png";
 import founder from "../../assets/Ganga_PNG_2.png";
 import green_arrow from "../../assets/Group.svg";
@@ -49,7 +50,7 @@ function About() {
         </div>
      
       </div>
-      <div className="bg-pink-400 py-12 px-60 flex flex-col items-center">
+      <div className="bg-pink-400 py-12 px-60 flex flex-col items-center gap-12">
         <h1 className="text-3xl font-normal w-[1166px]">“Our mission is to provide the <span className="font-medium">highest business value to our customers   </span> and live by a <span className="font-medium">value-focused, technology centered organization.”</span></h1>
         <div className="flex flex-row justify-center mt-6">
         <div className="bg-slate-200 flex flex-row box-border p-8 justify-center gap-20 w-min">
@@ -63,12 +64,30 @@ function About() {
             </div>
         </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col w-[1166px] gap-10">
         <h1 className="w-28 p-2 font-bold text-sm text-[#004642] bg-green-400 box-border">EXPERIENCE</h1> 
-
+        <div className="flex flex-row justify-evenly">
+          <div className="flex flex-col gap-10">
+          <h1 className="text-[#507A56] font-bold text-5xl	">20+ yrs</h1>
+          <h1 className="text-2xl">20% of our team</h1>
+          </div>
+          <div className="flex flex-col gap-10">
+          <h1 className="text-[#507A56] font-bold text-5xl	">8+ yrs</h1>
+          <h1 className="text-2xl">30% of our team</h1>
+          </div>
+          <div className="flex flex-col gap-10">
+          <h1 className="text-[#507A56] font-bold text-5xl	">6+ yrs</h1>
+          <h1 className="text-2xl">30% of our team</h1>
+          </div>
+          <div className="flex flex-col gap-10">
+          <h1 className="text-[#507A56] font-bold text-5xl	">3+ yrs</h1>
+          <h1 className="text-2xl">20% of our team</h1>
+          </div>
         </div>
-       
+        </div>
       </div>
+      <Home_card about_margin={0} about_width={1166}/>
+
     </div>
   );
 }
