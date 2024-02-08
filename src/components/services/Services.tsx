@@ -114,7 +114,7 @@ function Services() {
           <h1>Terms of Service</h1>
           <h1>Privacy Policy</h1>
         </div>
-      </div>
+      </div>  
     </div>
   );
 }
