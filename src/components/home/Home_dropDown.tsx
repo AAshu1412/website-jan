@@ -8,8 +8,8 @@ import {
 
 function Home_dropDown() {
   return (
-    <div className=" flex flex-row justify-center mt-16 	">
-      <div className="w-[1020px] flex flex-col ">
+    <div className=" flex flex-row justify-center mt-16 ">
+      <div className="w-[1020px] flex flex-col pl-3 lg:pl-0">
         <h1 className="w-52 p-1 text-sm font-bold text-green-950 bg-green-400 ">
           Frequently asked Questions
         </h1>
@@ -19,7 +19,7 @@ function Home_dropDown() {
           <Accordion
             type="single"
             collapsible
-            className="w-full grid gap-12 font-medium text-xl"
+            className="w-full grid lg:gap-12 gap-2 font-medium text-xl"
           >
             <AccordionItem value="item-1" className="grid gap-3">
               <AccordionTrigger>

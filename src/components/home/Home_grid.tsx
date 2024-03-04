@@ -12,13 +12,13 @@ function Home_grid() {
             What we offer
           </h1>
           <br />
-          <h1 className="w-[850px] text-4xl font-medium	">
+          <h1 className="lg:w-[850px] w-[615px] lg:text-4xl text-2xl font-medium	">
             We offer a comprehensive suite of services designed to meet your
             every need in the realm of embedded product engineering and
             development.{" "}
           </h1>
           <br />
-          <h1 className="text-xl">
+          <h1 className="lg:text-xl text-lg">
             Here's a detailed look at what we bring to the table:
           </h1>
         </div>
@@ -30,13 +30,13 @@ function Home_grid() {
             About us
           </h1>
           <br />
-          <h1 className="w-[850px] text-4xl font-medium 	">
+          <h1 className="lg:w-[850px] w-[615px] lg:text-4xl text-2xl font-medium 	">
             <span className="font-normal">At Gyansamhita</span> , we love
             technology and are driven by passion and innovation that improves
             our customer’s operations.
           </h1>
           <br />
-          <h1 className="w-[850px] text-xl ">
+          <h1 className="lg:w-[850px] w-[550px] lg:text-xl text-lg ">
             There’s so much we start adding up in terms of value, only to
             achieve the aforesaid. Over the last 10 years of our successful
             stint in the industry, headquartered in Bangalore and operating from

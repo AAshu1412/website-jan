@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 function Navbar(props:any) {
 
   return (
-    <nav className=" w-full h-24  grid grid-cols-[3rem_5fr_1fr_3rem] ">
-      <div className="col-start-2 col-span-1 flex flex-row justify-center box-border pl-60 ">
-        <ul className="flex flex-row my-auto mx-0 gap-10 ">
+    <nav className=" w-full h-24  grid lg:grid-cols-[3rem_5fr_1fr_3rem] grid-cols-[1rem_2fr_0.5fr_1rem]">
+      <div className="col-start-2 col-span-1 flex flex-row justify-center box-border  lg:pl-60  ">
+        <ul className="flex flex-row my-auto mx-0 lg:gap-10 gap-5">
           <li>
             <NavLink to="/">
               <h1 className="hover:underline  font-bold" style={{color:props.color}}>Home</h1>
@@ -40,7 +40,7 @@ function Navbar(props:any) {
         </ul>
       </div>
       <div className="col-start-3 col-span-1 flex flex-row  my-auto mx-0 justify-center ">
-        <button className="w-40 h-11 box-border border-0 border-inherit border-solid rounded-[28px] " style={{backgroundColor:props.button_color, color:props.button_text}}>
+        <button className="lg:w-40 w-28 lg:h-11 h-12 box-border border-0 border-inherit border-solid rounded-[28px] " style={{backgroundColor:props.button_color, color:props.button_text}}>
           Employee Login
         </button>
       </div>
