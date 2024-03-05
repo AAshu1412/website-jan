@@ -22,9 +22,11 @@ function Home_grid() {
             Here's a detailed look at what we bring to the table:
           </h1>
         </div>
+        <div className="flex flex-row justify-center">
         {/*-------------------------------------------------------------------------------------------------------------*/}
         <Home_8box />
         {/*----------------------------------------------------------------------------------------------------------------------------------- */}
+        </div>
         <div className="flex flex-col">
           <h1 className="w-20 p-1 text-sm font-bold text-green-950 bg-green-400 ">
             About us

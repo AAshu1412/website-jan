@@ -25,13 +25,13 @@ function Home_contact() {
   }
 
   return (
-    <div className=" flex flex-row justify-center mt-16 	">
+    <div className=" flex flex-row justify-center mt-16 ml-3 lg:ml-0	">
       <div className="w-[1020px] flex flex-col ">
         <h1 className="w-24  p-1 text-sm font-bold text-green-950 bg-green-400 ">
           Contact Us
         </h1>
         <br />
-        <div className="flex flex-row justify-center gap-8">
+        <div className="flex lg:flex-row flex-col justify-center lg:gap-8 ">
           <div className="w-2/4 ">
             <h1 className="text-3xl font-medium ">Reach out through</h1>
             <div className="grid gap-8 p-10 ">
@@ -76,7 +76,7 @@ function Home_contact() {
               </div>
             </div>
           </div>
-          <div className="w-2/4">
+          <div className="lg:w-2/4 w-[600px]">
             <h1 className="text-3xl font-medium">Get Started</h1>
             <div className="bg-slate-200 mt-5">
               <form onSubmit={handleSubmit} className="flex flex-col gap-2 p-8">

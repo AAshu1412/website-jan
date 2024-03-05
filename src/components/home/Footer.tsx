@@ -67,7 +67,7 @@ function Footer() {
       </div>
 <div className="h-24 flex flex-col justify-center  border-t-2 border-[#FFFFFF99]">
 <div className="flex flex-row justify-evenly">
-        <div className="text-sm text-[#FFFFFF99] flex flex-row  gap-20">
+        <div className="text-sm text-[#FFFFFF99] flex flex-row  lg:gap-20 gap-3">
 <h1>Copyright © 2023 Gytech. All Rights Reserved.</h1>
 <h1>Terms of Service</h1>
 <h1>Privacy Policy</h1>
