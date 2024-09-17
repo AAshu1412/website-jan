@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Home_8box from "./Home_8box";
 
 import green_arrow from "../../assets/Group.svg";

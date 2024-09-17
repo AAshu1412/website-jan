@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import icon from "../../assets/sample_icon.svg";
 import arrow2 from "../../assets/ic_arrow.svg";
 

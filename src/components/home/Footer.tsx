@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import home_mail from "../../assets/home_footer/ic_mail.svg";
 import home_call from "../../assets/home_footer/ic_call.svg";
 import linkedin from "../../assets/home_contact/Linkedin.svg";

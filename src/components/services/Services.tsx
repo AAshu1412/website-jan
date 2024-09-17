@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Navbar from "../Navbar/Navbar";
 import icon from "../../assets/sample_icon.svg";
 import green_arrow from "../../assets/Group.svg";

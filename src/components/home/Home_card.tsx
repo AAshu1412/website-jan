@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import star from "../../assets/Star.svg";
 import girl from "../../assets/girl.svg";
 

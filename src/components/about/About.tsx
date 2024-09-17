@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Home_card from "../home/Home_card";
 import about_top from "../../assets/image 4.png";

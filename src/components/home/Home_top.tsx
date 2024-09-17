@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import arrow from "../../assets/arrow.svg";
 import scroll from "../../assets/scroll.svg";
 import Navbar from "../Navbar/Navbar";

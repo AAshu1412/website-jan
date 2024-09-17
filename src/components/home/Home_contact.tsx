@@ -1,4 +1,4 @@
-import React, { ChangeEvent } from "react";
+import  { ChangeEvent } from "react";
 import { useState } from "react";
 import phone_call from "../../assets/home_contact/phone_call.svg";
 import mail from "../../assets/home_contact/mail.svg";
@@ -19,7 +19,7 @@ function Home_contact() {
     if (attribute == "message") setMessage(value);
   }
 
-  function handleSubmit(event:any): void {
+  function handleSubmit(): void {
     // event.preventDefault();
     console.log("Don't know what it works");
   }
